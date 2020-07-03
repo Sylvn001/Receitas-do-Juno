@@ -1,8 +1,8 @@
 # Receitas-do-Juno
-### Technologies used - Tecnologias Utilizadas
-Html
-CSS
-BOOSTRAP4 (carrousel) 
+### Technologies used - Tecnologias Utilizadas 
+Html <br>
+CSS <br>
+BOOSTRAP4 (carrousel) <br>
 
 
 ### About Project
