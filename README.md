@@ -9,6 +9,6 @@ BOOSTRAP4 (carrousel) <br>
 I create a new project using HTML, CSS, BOOTSTRAP4. a recipe Website. 
 
 ### Follow me!
-Instagram: https://www.instagram.com/s1lvn/
-Twitch: twitch.tv/sylvn001
+Instagram: https://www.instagram.com/s1lvn/ <br>
+Twitch: twitch.tv/sylvn001 <br>
 GitHub: https://github.com/Sylvn001
