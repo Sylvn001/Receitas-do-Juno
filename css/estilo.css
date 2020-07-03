@@ -1,0 +1,102 @@
+/*Formatacoes Basicas */
+
+h1,h2,h3
+{
+    color: #FF5F00;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Menu CSS*/
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background: #FF6A28;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header #logo
+{
+    text-indent: 30px;
+    padding-top: 10px;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+
+}
+header a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+
+header nav ul{
+    display: flex;
+    padding: 5px;
+    list-style: none;
+}
+header nav ul li
+{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    
+}
+header nav ul li a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+/*Receita*/
+#Receita h1
+{
+    margin: 1em auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+ .img-center
+{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*Modo de preparo*/
+.tutorial h2
+{
+    margin-top: 0.8em;
+    text-align: center;
+}
+.tutorial
+{
+    
+    margin: 1.2em;
+    font-size: 1.2em;
+    border: 1px solid rgba(0,0,0,0.2);
+    background: #f7f5f5;
+}
+.tutorial li
+{
+    margin: 1.2em 2em;
+}
+
+/* - - - - - - - Sobre - - - - -*/
+#sobre 
+{
+    margin: 1em 2em;
+    
+}
+.sobre-texto
+{
+    margin: 0 auto;
+}
