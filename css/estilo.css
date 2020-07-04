@@ -9,6 +9,7 @@ h1,h2,h3
     margin: 0;
 }
 
+
 /* Menu CSS*/
 header
 {
@@ -93,10 +94,57 @@ header nav ul li a:hover
 /* - - - - - - - Sobre - - - - -*/
 #sobre 
 {
-    margin: 1em 2em;
-    
+    margin: 2.5em 2em;
+}
+#sobre p
+{
+    font-size: 1.5em;
 }
 .sobre-texto
 {
+    width: 85%;
     margin: 0 auto;
+    text-align: center;
+}
+.sobre-texto h2
+{
+    margin: 0.5em 0;
+    font-size: 2.5em;
+    
+}
+
+/* Chefe - Formatação*/
+#chefe
+{
+    margin: 3em;
+}
+#chefe::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.chefe-div
+{
+    margin: 2em;
+}
+.chefe-texto h2
+{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 1em 0 0.3em 0;
+}
+.chefe-texto, #container .imagem
+{
+    float: left;
+    
+    width: 50%;
+}
+.chefe-texto p
+{
+    font-size: 1.5em;
+}
+.imagem img
+{
+    width: 50%;
 }
