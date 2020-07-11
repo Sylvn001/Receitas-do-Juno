@@ -148,3 +148,70 @@ header nav ul li a:hover
 {
     width: 50%;
 }
+/* Caixa -> Outras receitas */
+
+#outras_receitas
+{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: #fdfafa;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+
+    margin: 2em;
+}
+
+#outras_receitas img{
+    border-radius: 10%;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#outras_receitas h3{
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+#outras_receitas a{
+    color: #FF5F00;
+}
+
+#outras_receitas a:hover{
+    color: #ffae00;
+}
+
+.flex-item {
+
+    flex: content;
+    align-items: center;
+    margin: 1em;
+}
+
+#rodape{
+    background: #FF6A28; 
+}
+#rodape , #rodape h3{
+    color: white;
+}
+.redes_sociais{
+    margin: 2em;
+
+    float: left;
+}
+.redes_sociais a {
+    color: white;
+    padding: 5px;
+}
+.contato{
+    float: left;
+    
+    margin: 2em;
+}
+.contato h3{
+    text-align: center;
+}
+
+.contato p{
+    margin: 0.5em;
+}
